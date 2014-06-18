@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+      "path": ".",
+      "file_exclude_patterns": [
+        "*.sublime-workspace",
+        "spec/fixtures/*"
+      ],
+      "folder_exclude_patterns": [
+        "spec/vcr_cassettes",
+        "tmp",
+        "log",
+        "doc",
+        "coverage"
+      ]
+    }
+	]
+}
