@@ -1,16 +1,29 @@
 require(['jquery', 'backbone'], function($, Backbone){
-  require(['uikit', 'models/app_model', 'views/app_model/edit', 'views/app_model/show'], function(UI, AppModel, AppModelEditView, AppModelShowView){
+  require([
+    'uikit',
+    'models/note',
+    'views/app_view',
+    'views/note/index',
+    'views/note/edit',
+    'views/note/show',
+    'router'
+  ],
+  function(
+    UI,
+    Note,
+    AppView,
+    NotesIndex,
+    NotesEditView,
+    NotesShowView,
+    Router
+  ){
 
-    var myModel = new AppModel();
+    var app = new AppView({el:$('[bb-app]')});
 
-    new AppModelEditView({
-      el: $('.edit'),
-      model: myModel
-    }).render();
+    app.render();
 
-    new AppModelShowView({
-      el: $('.show'),
-      model: myModel
-    }).render();
+    new Router({app:app});
+
+    Backbone.history.start();
   });
 });
