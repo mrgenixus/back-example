@@ -1,0 +1,12 @@
+{
+  "name": "requirejs-hbs",
+  "homepage": "https://github.com/epeli/requirejs-hbs",
+  "_release": "2b4668ee89",
+  "_resolution": {
+    "type": "commit",
+    "commit": "2b4668ee89ad551cd40a0fe0d6e1401d0cd429ca"
+  },
+  "_source": "git@github.com:epeli/requirejs-hbs.git",
+  "_target": "2b4668ee89ad551cd40a0fe0d6e1401d0cd429ca",
+  "_originalSource": "git@github.com:epeli/requirejs-hbs.git"
+}
