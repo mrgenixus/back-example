@@ -30,8 +30,7 @@ Starting the webserver on http://localhost:8000
   grunt
 ```
 
-Compiling the Templates
-*Done in the browser by requirejs-hbs*
+Compiling the Templates: *Done in the browser by requirejs-hbs*
 
 
 
