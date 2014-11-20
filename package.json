@@ -9,6 +9,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "bower": "^1.3.12",
     "grunt-contrib-handlebars": "~0.8.0",
     "grunt-requirejs": "~0.4.2"
   },

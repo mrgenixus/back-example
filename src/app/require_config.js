@@ -4,8 +4,8 @@ require.config({
   paths: {
     'backbone'   : '../../bower_components/backbone/backbone',
     'underscore' : '../../bower_components/underscore/underscore',
-    'jquery'     : '../../bower_components/jquery/jquery',
-    'uikit'      : '../../bower_components/uikit/dist/js/uikit',
+    'jquery'     : '../../bower_components/jquery/dist/jquery.min',
+    'uikit'      : '../../bower_components/uikit/js/uikit',
     'handlebars' : '../../bower_components/handlebars/handlebars.min',
     'text'       : '../../bower_components/requirejs-text/text',
     'hbs'        : '../../bower_components/requirejs-hbs/hbs',
@@ -31,7 +31,7 @@ require.config({
     hbs: {},
 
     "uikit": {
-      "base": "../../bower_components/uikit/dist"
+      "base": "../../bower_components/uikit"
     }
   }
 });
